@@ -126,7 +126,7 @@ Contributions are welcome! If you'd like to add support for more pipelines or im
 
 ## 📜 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the bioinformatics core facility Augsburg License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
