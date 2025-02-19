@@ -30,7 +30,7 @@ A Python script to generate sample sheets for various nf-core pipelines (e.g., S
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/obiorach/nf-core-sample-sheet-generator.git
+   git clone https://gitlab.com/obiorach/nf-core-sample-sheet-generator.git
    cd nf-core-sample-sheet-generator
    ```
 
