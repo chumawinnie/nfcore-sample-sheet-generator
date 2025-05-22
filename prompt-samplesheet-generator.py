@@ -134,12 +134,13 @@ def generate_sarek_samplesheet(samples, output_dir):
         csv_data.append({
             "patient": patient,
             "sex": "XX",  # Default sex
-            "status": status,
-            "sample": sample_type,
+            "status": "0" if "Normal" in sample_type else "1",
+            "sample": f"{patient}_{sample_type}",
             "lane": "lane_1",
             "fastq_1": ",".join(sorted(reads["fastq_1"])),
             "fastq_2": ",".join(sorted(reads["fastq_2"]))
         })
+
     
     # Write to CSV
     output_path = os.path.join(output_dir, PIPELINE_CONFIG["sarek"]["filename"])
